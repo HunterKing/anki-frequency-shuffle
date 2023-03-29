@@ -1,10 +1,5 @@
 {
-    "avg_new_review_time": 0,
-    "avg_review_review_time": 0,
-    "max_new_cards_per_day": 0,
-    "min_new_cards_per_day": 0,
-    "card_inc_dec_steps": 0,
-    "target_time": 0,
-    "outlier_threshold": 0,
-    "current_new_cards": 0
+    "highest_ranking": 0,
+    "lowest_ranking":  0,
+    "target_tag": ""
 }
