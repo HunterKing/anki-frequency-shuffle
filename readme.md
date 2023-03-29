@@ -6,3 +6,9 @@ Copy the `anki-freq-shuffle` folder into your Anki addons directory, then restar
 
 ## Usage
 Go to the anki plugin configuration, set your lower and upper bounds, and your target tag. Go to the "Tools" menu and click "Generate Random Frequencies".
+
+![](./images/freq_config.png)
+![](./images/freq_menu.png)
+![](./images/freq_tooltip.png)
+
+(Note: The pop-up will not appear. It was for debug purposes.)
