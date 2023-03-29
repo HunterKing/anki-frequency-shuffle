@@ -1,5 +1,6 @@
 {
     "highest_ranking": 0,
     "lowest_ranking":  0,
-    "target_tag": ""
+    "target_tag": "",
+    "target_field": ""
 }

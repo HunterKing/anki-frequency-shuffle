@@ -16,6 +16,7 @@ config = mw.addonManager.getConfig(__name__)
 
 def shuffleFreq() -> None:
     target_tag = "tag:" + config['target_tag']
+    target_field = config['target_field']
     max_rank = config['highest_ranking']
     min_rank = config['lowest_ranking']
 
@@ -23,7 +24,7 @@ def shuffleFreq() -> None:
     for card in data:
         target_card = mw.col.get_card(card)
         note = target_card.note()
-        note['Frequency'] = str(random.randint(max_rank, min_rank))
+        note[target_field] = str(random.randint(max_rank, min_rank))
         mw.col.update_note(note)
     
     tooltip(
